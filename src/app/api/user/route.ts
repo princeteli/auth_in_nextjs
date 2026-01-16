@@ -1,6 +1,6 @@
-import authOptions from "@/lib/auth";
-import connectDb from "@/lib/db";
-import User from "@/model/user.model";
+import authOptions from "../../../config/auth";
+import connectDb from "../../../config/db";
+import User from "../../../model/user.model";
 import { getServerSession } from "next-auth";
 import { NextRequest, NextResponse } from "next/server";
 
